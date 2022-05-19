@@ -18,6 +18,7 @@ import {
 
 function App() {
   return (
+    <>
     <BrowserRouter>
     <NavBar/>
        <Routes>
@@ -26,6 +27,7 @@ function App() {
        <Route path="/ContactUs" element={<ContactUs />} />
        </Routes>
      </BrowserRouter>
+     </>
   );
 }
 
